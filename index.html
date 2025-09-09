@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bavesh Jayasuriya G - SOC Analyst & Endpoint Security Specialist</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">SOC ANALYST</div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-bg"></div>
+            <canvas id="soc-canvas" class="soc-canvas"></canvas>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="glitch-text">BAVESH JAYASURIYA G</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        <span class="decrypt-text">SOC ANALYST & ENDPOINT SECURITY ANALYST</span>
+                    </h2>
+                    <p class="hero-tagline">
+                        <span class="matrix-text">Proactive Threat Detection & Incident Response Specialist</span>
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="100">0</span>
+                            <span class="stat-label">Alerts Monthly</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="800">0</span>
+                            <span class="stat-label">Incidents Investigated</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="7">0</span>
+                            <span class="stat-label">Security Tools Mastered</span>
+                        </div>
+                    </div>
+                    <div class="security-badges">
+                        <div class="badge active">🛡️ CROWDSTRIKE CERTIFIED</div>
+                        <div class="badge active">🔒 CYBERARK PAM CERTIFIED</div>
+                        <div class="badge">⚡ COMPTIA SEC+ IN PROGRESS</div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-arrow"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Professional Summary</h2>
+                    <div class="section-subtitle">1.5+ Years of SOC Excellence</div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Security Operations Center (SOC) and Endpoint Security Analyst with over 1.5 years of progressive experience in proactive threat detection, incident response, and endpoint protection within large enterprise environments at Cognizant Technology Solutions.</p>
+                        <p>Proven expertise in leveraging industry-leading security tools including CrowdStrike Falcon, CrowdStrike NGSIEM, Microsoft Defender for Endpoint, Azure/Entra ID, and Proofpoint to identify, analyze, and mitigate sophisticated cyber threats.</p>
+                        <div class="about-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Location</span>
+                                <span class="detail-value">Chennai, India</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Experience</span>
+                                <span class="detail-value">1.5+ Years</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Education</span>
+                                <span class="detail-value">B.E. Computer Science (7.98 CGPA)</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Languages</span>
+                                <span class="detail-value">Tamil, English</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Technical Arsenal</h2>
+                    <div class="section-subtitle">Advanced Security Operations & Analysis</div>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category" data-category="operations">
+                        <h3>Security Operations</h3>
+                        <div class="skill-item" data-skill="Incident Response" data-level="90">
+                            <span class="skill-name">Incident Response</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-level">90%</span>
+                        </div>
+                        <div class="skill-item" data-skill="Alert Triage" data-level="95">
+                            <span class="skill-name">Alert Triage</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-level">95%</span>
+                        </div>
+                        <div class="skill-item" data-skill="Threat Hunting" data-level="85">
+                            <span class="skill-name">Threat Hunting</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-level">85%</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category" data-category="tools">
+                        <h3>Security Platforms</h3>
+                        <div class="skill-item" data-skill="CrowdStrike Falcon" data-level="95">
+                            <span class="skill-name">CrowdStrike Falcon</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-level">95%</span>
+                        </div>
+                        <div class="skill-item" data-skill="Microsoft Defender" data-level="90">
+                            <span class="skill-name">Microsoft Defender</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-level">90%</span>
+                        </div>
+                        <div class="skill-item" data-skill="Azure/Entra ID" data-level="85">
+                            <span class="skill-name">Azure/Entra ID</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-level">85%</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category" data-category="query">
+                        <h3>Query Languages</h3>
+                        <div class="skill-item" data-skill="KQL (Kusto Query Language)" data-level="88">
+                            <span class="skill-name">KQL (Kusto Query)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-level">88%</span>
+                        </div>
+                        <div class="skill-item" data-skill="CQL (Falcon Query Language)" data-level="85">
+                            <span class="skill-name">CQL (Falcon Query)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-level">85%</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category" data-category="framework">
+                        <h3>Security Frameworks</h3>
+                        <div class="skill-item" data-skill="MITRE ATT&CK" data-level="90">
+                            <span class="skill-name">MITRE ATT&CK</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-level">90%</span>
+                        </div>
+                        <div class="skill-item" data-skill="ServiceNow" data-level="85">
+                            <span class="skill-name">ServiceNow</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-level">85%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Professional Journey</h2>
+                    <div class="section-subtitle">Progressive growth in cybersecurity operations</div>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Programmer Analyst | SOC & Endpoint Security Analyst</h3>
+                            <div class="timeline-company">Cognizant Technology Solutions</div>
+                            <div class="timeline-location">Chennai, India</div>
+                            <div class="timeline-period">September 2025 - Present</div>
+                            <ul class="timeline-achievements">
+                                <li>Conduct comprehensive incident triage, containment, and eradication across endpoint, identity, email, and network vectors</li>
+                                <li>Handle 100+ security alerts monthly with high accuracy using CrowdStrike NGSIEM</li>
+                                <li>Design and maintain endpoint security policies and real-time response actions</li>
+                                <li>Author incident response playbooks for standardized operational procedures</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Programmer Analyst Trainee | SOC Analyst</h3>
+                            <div class="timeline-company">Cognizant Technology Solutions</div>
+                            <div class="timeline-location">Chennai, India</div>
+                            <div class="timeline-period">September 2024 - August 2025</div>
+                            <ul class="timeline-achievements">
+                                <li>Proactively monitored and triaged security incidents across multiple platforms</li>
+                                <li>Contributed to 100+ incident investigations monthly</li>
+                                <li>Investigated phishing, malware, and BEC attempts via Proofpoint</li>
+                                <li>Authored triage playbooks aligned with MITRE ATT&CK framework</li>
+                                <li>Utilized network log analysis and endpoint telemetry for threat tracking</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Cybersecurity Intern</h3>
+                            <div class="timeline-company">Cognizant Technology Solutions</div>
+                            <div class="timeline-location">Coimbatore, India</div>
+                            <div class="timeline-period">January 2024 - April 2024</div>
+                            <ul class="timeline-achievements">
+                                <li>Assisted with CyberArk administration for Privileged Access Management</li>
+                                <li>Managed account onboarding and safes/policies configuration</li>
+                                <li>Supported session management and credential rotation processes</li>
+                                <li>Conducted access auditing and compliance activities</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Security Projects</h2>
+                    <div class="section-subtitle">Real-world impact through advanced threat detection</div>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card" data-threat="high">
+                        <div class="project-threat-indicator"></div>
+                        <div class="project-header">
+                            <h3>KQL Hunting Queries for Authentication Anomalies</h3>
+                            <span class="project-status completed">Production</span>
+                        </div>
+                        <p class="project-description">Built advanced KQL hunting queries to identify elevated login failures from the same IP address and surface users with unusually high account lockout events, enabling early detection of brute-force and password-spray attacks.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">KQL</span>
+                            <span class="tech-tag">Microsoft Defender</span>
+                            <span class="tech-tag">Microsoft Sentinel</span>
+                            <span class="tech-tag">Threat Hunting</span>
+                        </div>
+                        <div class="project-impact">Enhanced threat detection for authentication-based attacks</div>
+                        <div class="project-code">
+                            <code>
+SigninLogs 
+| where TimeGenerated > ago(24h)
+| where ResultType != 0
+| summarize FailureCount = count() by IPAddress, UserPrincipalName
+| where FailureCount > 10
+                            </code>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-threat="critical">
+                        <div class="project-threat-indicator"></div>
+                        <div class="project-header">
+                            <h3>Detection Mapping and Triage Checklists (MITRE ATT&CK)</h3>
+                            <span class="project-status completed">Implemented</span>
+                        </div>
+                        <p class="project-description">Mapped frequent detections to the MITRE ATT&CK framework and developed standardized triage checklists aligned to relevant TTPs, improving investigation consistency and reducing time-to-triage significantly.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">MITRE ATT&CK</span>
+                            <span class="tech-tag">Detection Engineering</span>
+                            <span class="tech-tag">Process Improvement</span>
+                            <span class="tech-tag">Incident Response</span>
+                        </div>
+                        <div class="project-impact">Reduced time-to-triage and improved investigation consistency</div>
+                        <div class="project-techniques">
+                            <div class="technique-item">T1078 - Valid Accounts</div>
+                            <div class="technique-item">T1110 - Brute Force</div>
+                            <div class="technique-item">T1566 - Phishing</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Secure Communication</h2>
+                    <div class="section-subtitle">Connect with a SOC professional</div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-label">Email</div>
+                            <div class="contact-value">baveshjayasuriya@gmail.com</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-label">Phone</div>
+                            <div class="contact-value">+91 7548829287</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-label">Location</div>
+                            <div class="contact-value">Chennai, India</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-label">Current Role</div>
+                            <div class="contact-value">SOC & Endpoint Security Analyst</div>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+                            <div class="form-validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required>
+                            <div class="form-validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <select id="inquiry" name="inquiry" class="form-control" required>
+                                <option value="">Select Inquiry Type</option>
+                                <option value="job-opportunity">Job Opportunity</option>
+                                <option value="collaboration">Collaboration</option>
+                                <option value="consultation">SOC Consultation</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <div class="form-validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                            <div class="form-validation"></div>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">
+                            <span class="btn-text">Send Secure Message</span>
+                            <div class="btn-scan-effect"></div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Bavesh Jayasuriya G. All rights reserved.</p>
+                <div class="security-notice">
+                    <span class="security-icon">🔒</span>
+                    <span>SOC Operations Secured</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
